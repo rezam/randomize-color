@@ -1,6 +1,3 @@
-bodyStyle = document.querySelector("body");
-btnResult = document.querySelector(".btnResult");
-
 function randomizeColor() {
   let listArrNum = [48, 49, 50, 51, 52, 53, 54, 55,
             56, 57, 65, 66, 67, 68, 69, 70];
@@ -13,7 +10,3 @@ function randomizeColor() {
   finalValue =  "#" + tempValue;
   return finalValue;
 }
-
-btnResult.addEventListener("click", function(){
-  bodyStyle.style.background = randomizeColor();
-})
