@@ -5,8 +5,8 @@ Randomize Color by JS
 2. Call the function and get the random color by <strong>randomizeColor()</strong>.
    E.X. randomizeColor() return color hex in this format: <strong>#000000</strong>.
 3. Use like this to get random background color by click on the button:
-<code>
-   btnResult.addEventListener("click", function(){
-		bodyStyle.style.background = randomizeColor();
-	})
-</code>
+```
+btnResult.addEventListener("click", function(){
+	bodyStyle.style.background = randomizeColor();
+})
+```
