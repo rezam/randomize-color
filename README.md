@@ -10,3 +10,5 @@ btnResult.addEventListener("click", function(){
 	bodyStyle.style.background = randomizeColor();
 })
 ```
+
+reach me: https://wproket.ir
